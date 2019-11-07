@@ -7,6 +7,9 @@ backend:
     delete: 'Delete {{collection}} “{{slug}}”'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
 
 publish_mode: editorial_workflow
 
